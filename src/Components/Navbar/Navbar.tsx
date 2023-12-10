@@ -1,10 +1,16 @@
 import './Navbar.css'
 import Logo from "../../images/logo_resized_white.png"
+import { Property } from '../../../SUPA_BASS/types';
 
-const Navbar = () => {
+type NavbarProps = {
+  setProperties: React.Dispatch<React.SetStateAction<Property[]>>;
+}
+const Navbar = ({setProperties}: NavbarProps) => {
   return (
     <div className='nav'>
-      <div className="nav-logo"><img className='Logo' src={Logo} />Landlord</div>
+      <div onClick={() => {
+        setProperties([]);
+      }} className="nav-logo"><img className='Logo' src={Logo} />Landlord</div>
       <ul className="nav-menu">
         <li>Messages</li>
         <li>Upload</li>
