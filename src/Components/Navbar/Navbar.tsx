@@ -6,10 +6,10 @@ const Navbar = () => {
     <div className='nav'>
       <div className="nav-logo"><img className='Logo' src={Logo} />Landlord</div>
       <ul className="nav-menu">
-        <li>Messages</li>
-        <li>Upload</li>
-        <li>Help</li>
-        <li className='nav-contact'>Login/Signup</li>
+        <li><button className='button'>Messages</button></li>
+        <li><button className='button'>Upload</button></li>
+        <li><button className='button'>Help</button></li>
+        <li className='nav-contact'><button className='button'>Login/Signup</button></li>
       </ul>
     </div>
   )

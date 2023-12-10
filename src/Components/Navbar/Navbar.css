@@ -10,8 +10,6 @@
 
 .Logo{
   margin-right: 20px;
-  color: white;
-  height: 60px;
 }
 
 .nav-logo{
@@ -38,5 +36,14 @@
   border-radius: 50px;
   padding: 10px 38px;
   background: #3B5751;
+  color: white;
+}
+
+.button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
   color: white;
 }
