@@ -14,6 +14,7 @@
   margin-right: 20px;
   border-radius: 12px;
   color: white;
+  height: 60px;
 }
 
 .nav-logo{
@@ -21,7 +22,7 @@
   font-size: 42px;
   font-weight: 500;
   background-color: transparent;
-  color: var(--main-green-color);
+  color: white;
   border-radius: 50px;
   padding: 5px 38px;
 }
