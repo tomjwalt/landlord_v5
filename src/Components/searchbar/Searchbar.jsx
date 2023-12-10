@@ -18,12 +18,15 @@ export const Searchbar = ({setResults}) => {
 
   const handleChange = (value) => {
     setInput(value);
-    fetchData(value);
+  }
+
+  const onSearch = () => {
+    fetchData(input);
   }
     return (
     <div className='input-wrapper'>
-      <FaSearch id='search-icon'/>
       <input placeholder='Enter a Location...' value={input} onChange={(e) => handleChange(e.target.value)}/>
+      <FaSearch onClick={()=> onSearch()} id='search-icon'/>
     </div>
 
   )

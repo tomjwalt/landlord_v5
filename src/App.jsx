@@ -6,15 +6,13 @@ import Searchbar from './Components/searchbar/Searchbar'
 import { useState } from 'react';
 import { SearchResultsList } from './Components/searchbar/SearchResultsList';
 
-
 const App = () => {
 
   const [results, setResults] = useState([]);
   return (
-  <div>
+  <div className='Background'>
       <div>
         <Navbar/>
-        <Background />
       </div>
     <div>
       <div className='App'>
@@ -22,7 +20,10 @@ const App = () => {
           <Searchbar setResults={setResults} />
           <SearchResultsList results={results}/>
         </div>
-      </div>
+        {results && results.map((result,index) =>(
+          <div key={index}>{result}</div>
+        ))}
+        </div>
       </div>
   </div>
   ) 
