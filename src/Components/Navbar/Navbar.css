@@ -10,6 +10,7 @@
 
 .Logo{
   margin-right: 20px;
+  color: white;
 }
 
 .nav-logo{
@@ -17,7 +18,7 @@
   font-size: 42px;
   font-weight: 500;
   background-color: transparent;
-  color: white;
+  color: #3B5751;
   border-radius: 50px;
   padding: 5px 38px;
 }
