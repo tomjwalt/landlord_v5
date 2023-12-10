@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Searchbar from "./Components/searchbar/Searchbar";
 import {Property} from '../SUPA_BASS/types'
+import SUPABASS from '../SUPA_BASS/SUPABASS.js'
 
 const App = () => {
 
