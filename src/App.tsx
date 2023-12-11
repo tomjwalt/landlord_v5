@@ -3,7 +3,6 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Searchbar from "./Components/searchbar/Searchbar";
 import {Property} from '../SUPA_BASS/types'
-import SUPABASS from '../SUPA_BASS/SUPABASS.js'
 
 const App = () => {
 
@@ -16,9 +15,12 @@ const App = () => {
         <Navbar />
       </div>
       <div>
-        <div className="App">
+        <div className="app">
           <div className="search-bar-container">
             <Searchbar setProperties={setProperties}/>
+          </div>
+          <div className="motto">
+            <h2>Your Home in Your Hands</h2>
           </div>
           <div>
             {properties && properties.map((property, index) => {

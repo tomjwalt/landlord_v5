@@ -7,6 +7,7 @@
   padding-top: 20vh;
   width: 40%;
   margin: auto;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +19,13 @@ background-image: url(./images/landlord_door.png);
 background-size: cover;
 width: 100vw;
 height: 100vh;
+}
+
+.motto {
+  color: white;
+  text-align: center;
+  font-size: 200px;
+  justify-content: center;
+  margin-top: 40vh;
+  margin-right: 75vw;
 }
