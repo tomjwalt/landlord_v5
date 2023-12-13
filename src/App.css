@@ -19,3 +19,13 @@ background-size: cover;
 width: 100vw;
 height: 100vh;
 }
+
+.motto {
+  color: white;
+  text-align: center;
+  font-size: 200px;
+  justify-content: center;
+  margin-top: 40vh;
+  margin-right: 75vw;
+  
+}
